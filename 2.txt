@@ -1,0 +1,10 @@
+GGGGGGGGGGGGGGGGGG
+gpg --gen-key
+
+gpg --list-keys
+
+git-crypt add-gpg-user "Muhammad Asim <quickbooks2018@gmail.com>"
+
+git-crypt status
+
+git-crypt status -f
